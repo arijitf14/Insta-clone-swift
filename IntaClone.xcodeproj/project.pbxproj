@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C19CEF4BA05C47B2E8AEEA7 /* Pods_IntaCloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B101CA56A9A073E838A0E27 /* Pods_IntaCloneTests.framework */; };
+		28A0B76562F1F66CEF9B8650 /* Pods_IntaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8ADD296D72277506947462 /* Pods_IntaClone.framework */; };
 		8216950B2B0E436D00971133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216950A2B0E436D00971133 /* AppDelegate.swift */; };
 		8216950D2B0E436D00971133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216950C2B0E436D00971133 /* SceneDelegate.swift */; };
 		8216950F2B0E436D00971133 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216950E2B0E436D00971133 /* HomeViewController.swift */; };
@@ -30,6 +32,11 @@
 		8216955A2B0E477B00971133 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821695592B0E477B00971133 /* SearchResultViewController.swift */; };
 		8216955C2B0E47A800971133 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216955B2B0E47A800971133 /* PostEditorViewController.swift */; };
 		8216955E2B0E47C300971133 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8216955D2B0E47C300971133 /* PublishPostViewController.swift */; };
+		821695602B0E51FF00971133 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8216955F2B0E51FF00971133 /* GoogleService-Info.plist */; };
+		821695632B0E5A4700971133 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821695622B0E5A4700971133 /* DatabaseManager.swift */; };
+		821695652B0E5EEB00971133 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821695642B0E5EEB00971133 /* AuthManager.swift */; };
+		821695672B0E5F3200971133 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821695662B0E5F3200971133 /* StorageManager.swift */; };
+		DD5790DD144AEBFB4ACA05D9 /* Pods_IntaClone_IntaCloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D2D2FF0AE65BB46F1141A2 /* Pods_IntaClone_IntaCloneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B101CA56A9A073E838A0E27 /* Pods_IntaCloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntaCloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF95537AD7D87676FD8B552 /* Pods-IntaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaClone.release.xcconfig"; path = "Target Support Files/Pods-IntaClone/Pods-IntaClone.release.xcconfig"; sourceTree = "<group>"; };
+		5B2A05FE8F72E0CC76CA0F25 /* Pods-IntaClone-IntaCloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaClone-IntaCloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-IntaClone-IntaCloneUITests/Pods-IntaClone-IntaCloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB7A356D3580EB837040C7D /* Pods-IntaCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-IntaCloneTests/Pods-IntaCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70A0486E45DDD8ACEFEA5B1C /* Pods-IntaClone-IntaCloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaClone-IntaCloneUITests.release.xcconfig"; path = "Target Support Files/Pods-IntaClone-IntaCloneUITests/Pods-IntaClone-IntaCloneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		821695072B0E436D00971133 /* IntaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8216950A2B0E436D00971133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8216950C2B0E436D00971133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +89,14 @@
 		821695592B0E477B00971133 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		8216955B2B0E47A800971133 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		8216955D2B0E47C300971133 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		8216955F2B0E51FF00971133 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		821695622B0E5A4700971133 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		821695642B0E5EEB00971133 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		821695662B0E5F3200971133 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		89C3CD6829C75DB69B91384D /* Pods-IntaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaClone.debug.xcconfig"; path = "Target Support Files/Pods-IntaClone/Pods-IntaClone.debug.xcconfig"; sourceTree = "<group>"; };
+		BA8ADD296D72277506947462 /* Pods_IntaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC33398BD7115A2838AC145F /* Pods-IntaCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntaCloneTests.release.xcconfig"; path = "Target Support Files/Pods-IntaCloneTests/Pods-IntaCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8D2D2FF0AE65BB46F1141A2 /* Pods_IntaClone_IntaCloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntaClone_IntaCloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A0B76562F1F66CEF9B8650 /* Pods_IntaClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C19CEF4BA05C47B2E8AEEA7 /* Pods_IntaCloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5790DD144AEBFB4ACA05D9 /* Pods_IntaClone_IntaCloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +134,8 @@
 				821695202B0E436F00971133 /* IntaCloneTests */,
 				8216952A2B0E436F00971133 /* IntaCloneUITests */,
 				821695082B0E436D00971133 /* Products */,
+				AC28838A220FAA25B9C1C128 /* Pods */,
+				A15E85034920A5A0A869B890 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,8 +206,12 @@
 		8216953D2B0E440100971133 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8216955F2B0E51FF00971133 /* GoogleService-Info.plist */,
 				8216950A2B0E436D00971133 /* AppDelegate.swift */,
 				8216950C2B0E436D00971133 /* SceneDelegate.swift */,
+				821695622B0E5A4700971133 /* DatabaseManager.swift */,
+				821695642B0E5EEB00971133 /* AuthManager.swift */,
+				821695662B0E5F3200971133 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -212,14 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				8216954A2B0E46BC00971133 /* Onboarding */,
-				8216954F2B0E471600971133 /* PostViewController.swift */,
-				821695512B0E473A00971133 /* EditProfileViewController.swift */,
-				821695532B0E474D00971133 /* SettingsViewController.swift */,
-				821695552B0E475F00971133 /* ListViewController.swift */,
-				821695572B0E476A00971133 /* SearchViewController.swift */,
-				821695592B0E477B00971133 /* SearchResultViewController.swift */,
-				8216955B2B0E47A800971133 /* PostEditorViewController.swift */,
-				8216955D2B0E47C300971133 /* PublishPostViewController.swift */,
+				821695612B0E599700971133 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -233,6 +255,44 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		821695612B0E599700971133 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8216954F2B0E471600971133 /* PostViewController.swift */,
+				821695512B0E473A00971133 /* EditProfileViewController.swift */,
+				821695532B0E474D00971133 /* SettingsViewController.swift */,
+				821695552B0E475F00971133 /* ListViewController.swift */,
+				821695572B0E476A00971133 /* SearchViewController.swift */,
+				821695592B0E477B00971133 /* SearchResultViewController.swift */,
+				8216955B2B0E47A800971133 /* PostEditorViewController.swift */,
+				8216955D2B0E47C300971133 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		A15E85034920A5A0A869B890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA8ADD296D72277506947462 /* Pods_IntaClone.framework */,
+				F8D2D2FF0AE65BB46F1141A2 /* Pods_IntaClone_IntaCloneUITests.framework */,
+				0B101CA56A9A073E838A0E27 /* Pods_IntaCloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC28838A220FAA25B9C1C128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C3CD6829C75DB69B91384D /* Pods-IntaClone.debug.xcconfig */,
+				2DF95537AD7D87676FD8B552 /* Pods-IntaClone.release.xcconfig */,
+				5B2A05FE8F72E0CC76CA0F25 /* Pods-IntaClone-IntaCloneUITests.debug.xcconfig */,
+				70A0486E45DDD8ACEFEA5B1C /* Pods-IntaClone-IntaCloneUITests.release.xcconfig */,
+				6DB7A356D3580EB837040C7D /* Pods-IntaCloneTests.debug.xcconfig */,
+				EC33398BD7115A2838AC145F /* Pods-IntaCloneTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -240,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 821695312B0E436F00971133 /* Build configuration list for PBXNativeTarget "IntaClone" */;
 			buildPhases = (
+				E7CBFE6AAEE4EEDE07F9DC93 /* [CP] Check Pods Manifest.lock */,
 				821695032B0E436D00971133 /* Sources */,
 				821695042B0E436D00971133 /* Frameworks */,
 				821695052B0E436D00971133 /* Resources */,
+				D3C0B2F05C39CAE2912F1C38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 821695342B0E436F00971133 /* Build configuration list for PBXNativeTarget "IntaCloneTests" */;
 			buildPhases = (
+				97A60FB0B6F72AB6717C21D0 /* [CP] Check Pods Manifest.lock */,
 				821695192B0E436F00971133 /* Sources */,
 				8216951A2B0E436F00971133 /* Frameworks */,
 				8216951B2B0E436F00971133 /* Resources */,
@@ -275,9 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 821695372B0E436F00971133 /* Build configuration list for PBXNativeTarget "IntaCloneUITests" */;
 			buildPhases = (
+				7C4F9CC0CF6EC81290D2FB8C /* [CP] Check Pods Manifest.lock */,
 				821695232B0E436F00971133 /* Sources */,
 				821695242B0E436F00971133 /* Frameworks */,
 				821695252B0E436F00971133 /* Resources */,
+				AABED2E2384901FB48A974DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				821695172B0E436F00971133 /* LaunchScreen.storyboard in Resources */,
+				821695602B0E51FF00971133 /* GoogleService-Info.plist in Resources */,
 				821695142B0E436F00971133 /* Assets.xcassets in Resources */,
 				821695122B0E436D00971133 /* Main.storyboard in Resources */,
 			);
@@ -359,6 +425,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C4F9CC0CF6EC81290D2FB8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntaClone-IntaCloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A60FB0B6F72AB6717C21D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntaCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AABED2E2384901FB48A974DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntaClone-IntaCloneUITests/Pods-IntaClone-IntaCloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntaClone-IntaCloneUITests/Pods-IntaClone-IntaCloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntaClone-IntaCloneUITests/Pods-IntaClone-IntaCloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C0B2F05C39CAE2912F1C38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntaClone/Pods-IntaClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IntaClone/Pods-IntaClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IntaClone/Pods-IntaClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CBFE6AAEE4EEDE07F9DC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IntaClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		821695032B0E436D00971133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -371,12 +540,15 @@
 				821695442B0E457B00971133 /* NotificationViewController.swift in Sources */,
 				8216954E2B0E46F100971133 /* RegistrationViewController.swift in Sources */,
 				8216955C2B0E47A800971133 /* PostEditorViewController.swift in Sources */,
+				821695672B0E5F3200971133 /* StorageManager.swift in Sources */,
 				821695502B0E471600971133 /* PostViewController.swift in Sources */,
+				821695632B0E5A4700971133 /* DatabaseManager.swift in Sources */,
 				8216950F2B0E436D00971133 /* HomeViewController.swift in Sources */,
 				8216955A2B0E477B00971133 /* SearchResultViewController.swift in Sources */,
 				8216954C2B0E46E100971133 /* LoginViewController.swift in Sources */,
 				821695582B0E476A00971133 /* SearchViewController.swift in Sources */,
 				821695462B0E458900971133 /* ProfileViewController.swift in Sources */,
+				821695652B0E5EEB00971133 /* AuthManager.swift in Sources */,
 				8216950B2B0E436D00971133 /* AppDelegate.swift in Sources */,
 				8216950D2B0E436D00971133 /* SceneDelegate.swift in Sources */,
 				821695562B0E475F00971133 /* ListViewController.swift in Sources */,
@@ -552,6 +724,7 @@
 		};
 		821695322B0E436F00971133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C3CD6829C75DB69B91384D /* Pods-IntaClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -579,6 +752,7 @@
 		};
 		821695332B0E436F00971133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF95537AD7D87676FD8B552 /* Pods-IntaClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -606,6 +780,7 @@
 		};
 		821695352B0E436F00971133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB7A356D3580EB837040C7D /* Pods-IntaCloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -625,6 +800,7 @@
 		};
 		821695362B0E436F00971133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC33398BD7115A2838AC145F /* Pods-IntaCloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,6 +820,7 @@
 		};
 		821695382B0E436F00971133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2A05FE8F72E0CC76CA0F25 /* Pods-IntaClone-IntaCloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -661,6 +838,7 @@
 		};
 		821695392B0E436F00971133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A0486E45DDD8ACEFEA5B1C /* Pods-IntaClone-IntaCloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
